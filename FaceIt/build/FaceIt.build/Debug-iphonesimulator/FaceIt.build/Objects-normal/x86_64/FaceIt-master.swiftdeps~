@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "2a2c6b4cc1c65c45cf08ebcf59836542"
+build_time: [563833235, 876870000]
+inputs:
+  "/Users/j/Documents/Xcode Workspace/SwiftDemo/FaceIt/FaceIt/ViewController.swift": [563833235, 0]
+  "/Users/j/Documents/Xcode Workspace/SwiftDemo/FaceIt/FaceIt/FacialExpression.swift": [563761925, 0]
+  "/Users/j/Documents/Xcode Workspace/SwiftDemo/FaceIt/FaceIt/AppDelegate.swift": [563600890, 0]
+  "/Users/j/Documents/Xcode Workspace/SwiftDemo/FaceIt/FaceIt/FaceView.swift": [563831808, 0]

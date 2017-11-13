@@ -1,0 +1,179 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FacialExpression"
+provides-nominal:
+- "V6FaceIt16FacialExpression"
+- "OV6FaceIt16FacialExpression4Eyes"
+- "OV6FaceIt16FacialExpression5Mouth"
+provides-member:
+- ["V6FaceIt16FacialExpression", ""]
+- ["OV6FaceIt16FacialExpression4Eyes", ""]
+- ["OV6FaceIt16FacialExpression5Mouth", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "-"
+- "=="
+- !private "??"
+- "FacialExpression"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "~="
+depends-member:
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps9Equatable", "Mouth"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "frown"]
+- !private ["Ps9Equatable", "happier"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "sadder"]
+- !private ["Ps9Equatable", "smile"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["OV6FaceIt16FacialExpression4Eyes", "RawValue"]
+- ["OV6FaceIt16FacialExpression4Eyes", "_toAnyHashable"]
+- ["OV6FaceIt16FacialExpression4Eyes", "closed"]
+- ["OV6FaceIt16FacialExpression4Eyes", "deinit"]
+- ["OV6FaceIt16FacialExpression4Eyes", "hashValue"]
+- ["OV6FaceIt16FacialExpression4Eyes", "init"]
+- ["OV6FaceIt16FacialExpression4Eyes", "open"]
+- ["OV6FaceIt16FacialExpression4Eyes", "rawValue"]
+- ["OV6FaceIt16FacialExpression4Eyes", "squinting"]
+- ["V6FaceIt16FacialExpression", "Eyes"]
+- ["V6FaceIt16FacialExpression", "FacialExpression"]
+- ["V6FaceIt16FacialExpression", "Int"]
+- ["V6FaceIt16FacialExpression", "Mouth"]
+- ["V6FaceIt16FacialExpression", "eyes"]
+- ["V6FaceIt16FacialExpression", "happier"]
+- ["V6FaceIt16FacialExpression", "init"]
+- ["V6FaceIt16FacialExpression", "mouth"]
+- ["V6FaceIt16FacialExpression", "sadder"]
+- !private ["Ps8Hashable", "Mouth"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "frown"]
+- !private ["Ps8Hashable", "happier"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "sadder"]
+- !private ["Ps8Hashable", "smile"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["OV6FaceIt16FacialExpression5Mouth", "Mouth"]
+- ["OV6FaceIt16FacialExpression5Mouth", "RawValue"]
+- ["OV6FaceIt16FacialExpression5Mouth", "_toAnyHashable"]
+- ["OV6FaceIt16FacialExpression5Mouth", "deinit"]
+- ["OV6FaceIt16FacialExpression5Mouth", "frown"]
+- ["OV6FaceIt16FacialExpression5Mouth", "grin"]
+- ["OV6FaceIt16FacialExpression5Mouth", "happier"]
+- ["OV6FaceIt16FacialExpression5Mouth", "hashValue"]
+- ["OV6FaceIt16FacialExpression5Mouth", "init"]
+- ["OV6FaceIt16FacialExpression5Mouth", "neutral"]
+- ["OV6FaceIt16FacialExpression5Mouth", "rawValue"]
+- ["OV6FaceIt16FacialExpression5Mouth", "sadder"]
+- ["OV6FaceIt16FacialExpression5Mouth", "smile"]
+- ["OV6FaceIt16FacialExpression5Mouth", "smirk"]
+- !private ["Ps16RawRepresentable", "Mouth"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- !private ["Ps16RawRepresentable", "frown"]
+- !private ["Ps16RawRepresentable", "happier"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "sadder"]
+- !private ["Ps16RawRepresentable", "smile"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps9_Hashable", "Mouth"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "frown"]
+- !private ["Ps9_Hashable", "happier"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "sadder"]
+- !private ["Ps9_Hashable", "smile"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "OV6FaceIt16FacialExpression4Eyes"
+- "V6FaceIt16FacialExpression"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "OV6FaceIt16FacialExpression5Mouth"
+- "Ps16RawRepresentable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "8a5963c22fd38c59bf63c8205889d17b"
